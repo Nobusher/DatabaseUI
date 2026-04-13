@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Student\source\repos\DBInterface\obj\Debug\net9.0-windows\
+C:\Users\Student\source\repos\DatabaseUI\DBInterface\obj\Debug\net9.0-windows\
 DBInterface
 none
 false
 TRACE;DEBUG;NET;NET9_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\Student\source\repos\DBInterface\App.xaml
-2-1652523456
+C:\Users\Student\source\repos\DatabaseUI\DBInterface\App.xaml
+41902052028
 
-5-182200806
-215-2011238229
-EditCategory.xaml;MainWindow.xaml;
+61268009166
+215-1483800183
+EditCategory.xaml;EditGoods.xaml;MainWindow.xaml;Styles.xaml;
 
 False
 

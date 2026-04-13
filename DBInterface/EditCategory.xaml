@@ -12,12 +12,13 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <ListBox x:Name="Category_ListBox" Background="#FFD0D0D0" BorderBrush="Black" FontSize="20" FontWeight="Bold" SelectionChanged="ListBox_SelectionChanged"/>
-        <TextBox x:Name="InputTextBox" Grid.Column="1" HorizontalAlignment="Center" Margin="0,309,0,0" TextWrapping="Wrap" Text="Введите категорию" VerticalAlignment="Top" Width="344" Height="36" Background="WhiteSmoke" BorderBrush="Black" FontSize="22" FontWeight="Bold"/>
-        <Button Grid.Column="1" Content="Добавить" HorizontalAlignment="Left" Margin="48,370,0,0" VerticalAlignment="Top" Height="40" Width="113" FontWeight="Bold" FontSize="18" Click="Button_Click_1"/>
+        <TextBlock Text="Введите категорию:" Grid.Column="1" HorizontalAlignment="Left" Margin="30,290,0,0"/>
+        <TextBox x:Name="InputTextBox" Grid.Column="1" HorizontalAlignment="Center" Margin="0,309,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="344" Height="36" Background="WhiteSmoke" BorderBrush="Black" FontSize="22" FontWeight="Bold"/>
+        <Button Grid.Column="1" Content="Добавить" HorizontalAlignment="Left" Margin="48,370,0,0" VerticalAlignment="Top" Height="40" Width="113" FontWeight="Bold" FontSize="18" Click="Button_Click_Add"/>
         <Button Grid.Column="1" Content="Удалить" HorizontalAlignment="Left" Margin="246,370,0,0" VerticalAlignment="Top" Height="40" Width="113" FontWeight="Bold" FontSize="20" Click="Button_Click"/>
-        <Button Grid.Column="1" Content="Сохранить" HorizontalAlignment="Left" Margin="28,22,0,0" VerticalAlignment="Top" Height="40" Width="113" FontWeight="Bold" FontSize="20" Click="Button_Click_2"/>
-        <Button Grid.Column="1" Content="Сохранить и выйти" HorizontalAlignment="Left" Margin="164,22,0,0" VerticalAlignment="Top" Height="40" Width="216" FontWeight="Bold" FontSize="20"/>
-        <Button Grid.Column="1" Content="Выйти без сохранения" HorizontalAlignment="Center" Margin="0,80,0,0" VerticalAlignment="Top" Height="40" Width="304" FontWeight="Bold" FontSize="20"/>
+        <Button Grid.Column="1" Content="Сохранить" HorizontalAlignment="Left" Margin="48,22,0,0" VerticalAlignment="Top" Height="40" Width="113" FontWeight="Bold" FontSize="20" Click="Button_Click_Save"/>
+        <Button Grid.Column="1" Content="Выйти" HorizontalAlignment="Left" Margin="246,22,0,0" VerticalAlignment="Top" Height="40" Width="113" FontWeight="Bold" FontSize="20" Click="Exit_NoSave_Click"/>
+        <ListBox x:Name="CategoryBuf_ListBox" Background="#FFD0D0D0" BorderBrush="Black" FontSize="12" FontWeight="Bold" Margin="28,134,20,150" Grid.Column="1" SelectionChanged="CategoryBuf_ListBox_SelectionChanged"/>
 
     </Grid>
 </Window>

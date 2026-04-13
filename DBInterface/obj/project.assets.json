@@ -797,11 +797,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Student\\source\\repos\\DBInterface\\DBInterface.csproj",
+      "projectUniqueName": "C:\\Users\\Student\\source\\repos\\DatabaseUI\\DBInterface\\DBInterface.csproj",
       "projectName": "DBInterface",
-      "projectPath": "C:\\Users\\Student\\source\\repos\\DBInterface\\DBInterface.csproj",
+      "projectPath": "C:\\Users\\Student\\source\\repos\\DatabaseUI\\DBInterface\\DBInterface.csproj",
       "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Student\\source\\repos\\DBInterface\\obj\\",
+      "outputPath": "C:\\Users\\Student\\source\\repos\\DatabaseUI\\DBInterface\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -823,8 +823,8 @@
         "net9.0-windows7.0": {
           "targetAlias": "net9.0-windows",
           "projectReferences": {
-            "C:\\Users\\Student\\source\\repos\\Sh0pDB\\Sh0pDB.csproj": {
-              "projectPath": "C:\\Users\\Student\\source\\repos\\Sh0pDB\\Sh0pDB.csproj"
+            "C:\\Users\\Student\\source\\repos\\DatabaseUI\\Sh0pDB\\Sh0pDB.csproj": {
+              "projectPath": "C:\\Users\\Student\\source\\repos\\DatabaseUI\\Sh0pDB\\Sh0pDB.csproj"
             }
           }
         }

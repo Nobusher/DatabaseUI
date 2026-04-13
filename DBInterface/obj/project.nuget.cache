@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mhUyot6fxWw=",
+  "dgSpecHash": "KSMp0z72Bbg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Student\\source\\repos\\DBInterface\\DBInterface.csproj",
+  "projectFilePath": "C:\\Users\\Student\\source\\repos\\DatabaseUI\\DBInterface\\DBInterface.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Student\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.0\\microsoft.entityframeworkcore.9.0.0.nupkg.sha512",
     "C:\\Users\\Student\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.0\\microsoft.entityframeworkcore.abstractions.9.0.0.nupkg.sha512",
